@@ -1,0 +1,15 @@
+body {
+  box-sizing: border-box;
+
+  font-family: 'Avenir', sans-serif;
+
+  background-color: #f2f4f6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.is-hidden {
+  visibility: hidden !important;
+}

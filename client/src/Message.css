@@ -1,0 +1,28 @@
+.chat-message {
+  margin: 0;
+  padding: 15px;
+
+  line-height: 24px;
+
+  color: #4a4a4c;
+}
+
+.chat-message:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.chat-message__info {
+  display: inline-flex;
+
+  font-size: 14px;
+}
+
+.chat-message__author {
+  font-weight: bold;
+}
+
+.chat-message__time {
+  margin-left: 3px;
+
+  color: #a2a4a6;
+}
